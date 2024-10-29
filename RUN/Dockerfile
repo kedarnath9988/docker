@@ -1,5 +1,5 @@
 FROM almalinux:9 
-RUN install nginx -y 
+RUN dnf install nginx -y 
 
 
 # to install & configure them we use RUM Instriction 
