@@ -1,5 +1,5 @@
 FROM  almalinux:9 
-ENV db_password="anolog"
+ENV db_user="anolog"
 LABEL author="kedarnath" \
         pupose="nginx "
 RUN dnf install nginx -y 
