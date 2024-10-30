@@ -6,6 +6,6 @@ LABEL author="kedarnath" \
       purpose="env" \
       description="latest file "
 RUN dnf install nginx -y 
-CMD [ "nginx" , "-g" , "daemon off;" ]
+CMD ["nginx","-g","daemon off;"]
 EXPOSE 80
 
