@@ -1,1 +1,1 @@
-FROM onbuild:1.2
+FROM onbuild:1.1
