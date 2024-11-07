@@ -1,7 +1,7 @@
 ARG version 
-FROM almalinux:${version}
+FROM almalinux:${version:-8}
 ARG trainer 
 ARG duration 
 ARG course
-RUN "echo trainer is ${trainer} duration is ${duration} & course is ${course} " 
+RUN "echo trainer is ${trainer:-kedarnath} duration is ${duration:-1 week} & course is ${course:-Docker} " 
 CMD [ "sleep","100" ]
